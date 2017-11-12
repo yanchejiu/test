@@ -13,6 +13,7 @@ def home():
     return render_template(
         'index.html',
         title='Home Page',
+        print 'test'
         year=datetime.now().year,
     )
 
